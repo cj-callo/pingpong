@@ -1,0 +1,13 @@
+1) User input is recognized as an integer
+  Input: 7
+  Output: 7
+
+2) All numbers divisible by 3 will be replaced by the word "ping"
+  Input: 3
+  Output ping
+
+3) All numbers divisible by 5 will be replaced by the word "pong"
+
+4) All numbers divisible by 15 will be replaced by the word "pingpong"
+
+5) Any numbers not divisible by 3,5, or 15 will return a yuck-faced emoji.
