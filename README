@@ -10,4 +10,4 @@
 
 4) All numbers divisible by 15 will be replaced by the word "pingpong"
 
-5) Any numbers not divisible by 3,5, or 15 will return a yuck-faced emoji.
+5) Any numbers not divisible by 3,5, or 15 will return user input. 
