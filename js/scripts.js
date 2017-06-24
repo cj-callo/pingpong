@@ -1,11 +1,13 @@
 //Business Logic
 var outcome = function(number) {
- if (number % 3 === 0) {
-    return true;
-  } else {
+ if (number % 15 === 0)
+  return false
+ if (number % 5 === 0) { //&& [number % 3 !== 0]) {
+   return true;
+ } else (number % 3 === 0)
     return false;
   }
-};
+;
 
 
 
