@@ -1,31 +1,38 @@
 //Business Logic
 var outcome = function(number) {
-  if (number % 15 === 0) {
+  //for (var i = 1; i = number; i++) {
+  //console.log("")
+  //var finalOutcome="";
+ if (number % 15 === 0) {
     return "pingpong";
-  } else if (number % 5 === 0) {
-    return "pong";
+    //finalOutocme = "pingpong";
+ } else if (number % 5 === 0) {
+   return "pong";
+   //finalOutcome = "pong";
   } else if (number % 3 === 0) {
-    return "ping"
+   return "ping";
+    //finalOutcome = "ping"
   } else {
-    return (number)
-  }
+    return number
+  };
 };
-
-
 
 //User Interface
 $(document).ready(function() {
   $("form#pingpong").click(function() {
-  //alert ("wow")
-var number = parseInt($("input#number").val());
-  //console.log("");
-  var result = outcome(number);
-  //console.log("")
-  $("ul").append($("#result").text(result));
-//  $("#result").append("");
-  //console.log("");
-  event.preventDefault();
-});
+    //alert ("wow")
+    var number = parseInt($("input#number").val());
+    //console.log("");
+    var result = outcome(number);
+    //console.log("")
+  $("#result").text(result);
+    //  $("#result").append("");
+    //console.log("");
+    //$("#result").show(result);
+    //$("#result").text(result);
+    //console.log()
+    event.preventDefault();
+  });
 });
 ;
 
