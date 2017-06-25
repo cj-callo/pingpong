@@ -1,3 +1,5 @@
-document {
-  color: black;
+h1 {
+  font-family: monospace;
+  font-weight: bolder;
+  color: #ff0000;
 }

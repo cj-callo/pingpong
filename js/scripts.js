@@ -4,12 +4,15 @@ var outcome = function(number) {
   //console.log("")
   //var finalOutcome="";
  if (number % 15 === 0) {
+   //outcome = "pingpong";
     return "pingpong";
     //finalOutocme = "pingpong";
  } else if (number % 5 === 0) {
+   //outcome = "pong";
    return "pong";
    //finalOutcome = "pong";
   } else if (number % 3 === 0) {
+    //outcome = "pingpong";
    return "ping";
     //finalOutcome = "ping"
   } else {
@@ -25,16 +28,19 @@ $(document).ready(function() {
     //console.log("");
     var result = outcome(number);
     //console.log("")
-  $("#result").text(result);
-    //  $("#result").append("");
+    //$("#result").text(outcome);
+    //$("#result").show();
+
+    $("#result").text(result);
+      $("#result").append("");
     //console.log("");
     //$("#result").show(result);
     //$("#result").text(result);
     //console.log()
-    event.preventDefault();
+      event.preventDefault();
   });
 });
-;
+
 
 
 
