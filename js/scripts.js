@@ -17,22 +17,23 @@ var outcome = function(number) {
     //finalOutcome = "ping"
   } else {
     return number
-  };
-};
+  }
+}
 
 //User Interface
 $(document).ready(function() {
-  $("form#pingpong").click(function() {
+  $("#pingpong").submit(function() {
     //alert ("wow")
-    var number = parseInt($("input#number").val());
+   var number = parseInt($("input#number").val());
     //console.log("");
-    var result = outcome(number);
     //console.log("")
     //$("#result").text(outcome);
     //$("#result").show();
-
-    $("#result").text(result);
-      $("#result").append("");
+    $("#result").text("");
+    for (i=1;i<=number;i++) {
+    $("#result").append("<p>"+ outcome(i) + "</p>")
+      //console.log("");
+    }
     //console.log("");
     //$("#result").show(result);
     //$("#result").text(result);
