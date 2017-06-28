@@ -1,10 +1,9 @@
 h1 {
   font-family: monospace;
   font-weight: bolder;
-  font-size: 75px;
 }
 
 #result {
-  font-family: monospace;
-  text-transform: full-width;
+  color: #6B109F;
+  font-style: italic;
 }
